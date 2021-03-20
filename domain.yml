@@ -1,0 +1,320 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - initial_dialog
+  - negative_response_to_project_name
+  - positive_response_to_project_name
+  - speak_name_project
+  - type_name_project
+  - i_want
+  - doubt_about_requirements
+  - start_project
+  - doubts_about_component_functionality
+  - doubts_about_properties
+  - change_screen
+  - add_new_screen
+  - how_delete_components
+  - how_change_text
+  - how_add_element_x
+  - out_of_scope
+  - no_response
+  - test
+  - how_start_coding
+  - where_to_start
+  - how_add_button
+  - how_add_text
+  - how_add_date
+  - how_add_image
+  - how_add_select
+  - how_goto_code_screen
+  - how_goto_designer_screen
+  - how_verify_code
+  - my_planning_is_one_screen_at_time
+  - my_planning_is_all_screens_first
+  - where_storage_my_requirements
+  - finish_requirements
+  - fix_all_warnings
+  - how_do_I_fix_warnings
+  - this_not_working
+  - hey_leili
+
+slots:
+  component:
+    type: text
+
+entities:
+  - component
+
+responses:
+
+#dialogo inicial
+  utter_greet:
+  - text: Olá! O que você gostaria de fazer hoje?
+
+  utter_question_about_name:
+  - text: Você já escolheu um nome para o seu projeto?
+  # - text: Qual será o nome do seu programa?
+
+  utter_suggest_name_to_project:
+  - text: Entendi. Vamos chamá-lo de 'MyApp' enquanto pensa em um nome legal para ele, pode ser?
+
+  # utter_positive_response_for_initial_dialog:
+  # - text: "Que bom. Você prefere falar ou digitar?"
+
+  utter_confirm_type_project_name:
+  - text: Você pode digitar o nome do seu projeto na caixinha que aparece após clicar em Novo projeto.
+
+# requisitos
+  utter_remember_requeriments:
+  - text: Muito bem. Antes de começarmos a colocar a mão na massa, vamos repassar a etapa de requisitos?
+
+  utter_requeriment_is:
+  - text: Os requisitos definem as características da sua aplicação. Suas funcionalidades e/ou sua aparência. O que ele poderá ou não executar.
+
+  utter_need_example:
+  - text: Precisa de um exemplo?
+
+  utter_example_requeriments:
+  - text: Um exemplo de requisitos é "o sistema deve permitir que o usuário faça login antes de acessar a aplicação”
+
+  utter_good_practice:
+  - text: É sempre bom pensar bem nos requisitos da sua aplicação e registrá-los em algum lugar. Dessa forma, você garante que o sistema atendeu às suas necessidades, além de facilitar para futuras consultas.
+
+  utter_ready:
+  - text: Quando estiver pronto para seguir em frente, podemos começar.
+
+#apresentação app inventor
+  utter_this_is_your_workspace:
+  - text: Aqui está a sua área de trabalho. É comum nesta plataforma iniciar a construção pelas telas, e só depois ir para a lógica por trás das delas.
+
+  utter_where_to_start:
+  - text: Avalie seus requisitos, é uma boa forma de decidir por onde começar.
+
+
+
+
+  utter_starting_to_present_screen_app_inventor:
+  - text: Muito bem. Aqui está a tela inicial do App Inventor
+
+  utter_want_know_more_about:
+  - text: Deseja saber mais sobre ela?
+
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Como posso te ajudar?"
+
+  utter_happy:
+  - text: "Ótimo, vamos lá!"
+
+  utter_goodbye:
+  - text: "Até mais."
+
+  utter_iamabot:
+  - text: "Eu sou seu assistente, desenvolvido para te ajudar."
+
+
+
+  # planejamento
+
+  utter_about_requeriments:
+  - text: "Você já pensou nas funcionalidades da sua aplicação?"
+
+  utter_about_what_is_requeriments:
+  - text: "Você sabe o que são os requisitos de uma aplicação?"
+
+  utter_tip_list_requeriments:
+  - text: Aconselho listá-los em algum bloco de notas, isso vai nos ajudar mais a frente.
+
+  utter_notify_when_you_are_done:
+  - text: Você quer um tempo para isso? Avise-me quando terminar.
+
+
+  utter_how_is_your_planning:
+  - text: Como está sendo seu planejamento para construção do sistema? Pensa em fazer todas as telas de uma vez e só depois ir para o código ou vai criar uma tela completa com código por vez?
+
+  utter_this_is_a_good_idea:
+  - text: Esse é um ótimo pensamento, vai facilitar no momento do teste e em possíveis mudanças que venham a aparecer.
+
+  utter_i_have_a_tip:
+  - text: Posso te dar uma dica? Faça uma tela completa com seu código por vez. Isso vai facilitar nos testes e na verificação dos seus requisitos.
+
+# definir requisitos segundo algum autor
+  utter_explanations_about_requeriments: 
+  - text: "Requisitos são caracteristicas..."
+
+  
+  utter_and_now:
+  - text: e agora?
+
+  utter_how_i_do:
+  - text: como eu faço?
+
+  # explicar a interface**
+
+  utter_more_doubts:
+  - text: você tem mais alguma dúvida?
+
+  utter_locate_components:
+  - text: está a sua esquerda, na paleta de componentes.
+
+  utter_explain_about_interface:
+  -  text: "Da esquerda para a direita temos: a Paleta de Componentes, na qual estão todos os elementos que você pode usar para compor a interface da sua aplicação; ao centro temos o Visualizador, exibindo um smartphone, no qual poderá arrastar os componentes da paleta ao lado para o seu interior; em seguida temos a Árvore de Componentes, responsável por exibir, de forma hierárquica, os elementos que já foram adicionadas na tela da sua aplicação; mais a direita temos a Paleta de Propriedades, na qual é possível modificar a aparência dos elementos que são adicionados na tela."
+
+  utter_start_from_screen:
+  - text: É comum nesta plataforma iniciar a construção pelas telas, e só depois ir para a lógica por trás das telas.
+
+#construção das telas
+
+
+  utter_add_new_screen:
+  - text: Para adicionar uma nova tela clique no botão "Adicionar Tela" que aparece no canto superior da tela
+  
+  utter_what_add_on_screen:
+  - text: O que você deseja adicionar nessa tela?
+
+  utter_tip_rename_elements:
+  - text: Lembre-se, é sempre bom utilizar a árvore de componentes para renomear os componentes que adicionar na sua tela. Desta forma, fica mais fácil identificá-los nas próximas etapas do desenvolvimento.
+
+  utter_add_selector_question:
+  - text: Você deseja adicionar um seletor?
+
+  utter_add_text_question:
+  - text: Qual texto deseja exibir?
+
+  utter_add_text_to_button:
+  - text: Qual o texto do seu botão?
+
+  utter_add_new_screen_question:
+  - text: Deseja adicionar uma nova tela?
+
+  utter_add_subtitle_question:
+  - text: Você deseja adicionar uma legenda?
+
+  utter_how_add_button:
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado botão.
+
+  utter_how_add_text:
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado legenda.
+
+  utter_how_add_date:
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado escolheData.
+
+  utter_how_add_image:
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado imagem.
+
+  utter_how_add_select:
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado caixaDeSeleção.
+
+#explicar propriedades
+  utter_modify_properties:
+  - text: Para modificar as propriedades visuais dos elementos, você pode utilizar a paleta de propriedades que fica à direita na tela.
+
+  utter_how_change_text:
+  - text: Para modificar o texto contido no elemento, você deve clicar sobre o elemento, em seguida ir na paleta de propriedades, localizar o campo texto e modificá-lo.
+
+#transição entre etapas
+  utter_change_to_code:
+  - text: Para construir a lógica por trás das suas telas clique no botão "Blocos" na parte superior direita da sua tela
+
+
+  utter_how_goto_code_screen:
+  - text: Clique no botão "Blocos" na parte superior direita da sua tela.
+
+  utter_how_goto_designer_screen:
+  - text: Clique no botão "Designer" na parte superior direita da sua tela.
+
+
+
+
+
+
+  utter_help:
+  - text: Olá! Como posso te ajudar?
+
+  utter_i_dont_know:
+  - text: Ainda não sei responder esta pergunta
+
+
+  utter_test:
+  - text: Não sei se você já programou o suficiente para testar
+  
+
+#etapa de testes
+  utter_tip_before_start_testing:
+  - text:  Antes de começar a fase de testes é bom dar uma olhada nos avisos que aparecem na parte inferior esquerda da tela do editor de blocos.
+
+  utter_tip_verify_spend_requirements:
+  - text: Ao testar sua aplicação, verifique se ela atende aos requisitos que você planejou inicialmente.
+
+  utter_tip_verify_spend_requirements_2:
+  - text: Você pode passar por cada funcionalidade que listou antes e testar se ela está funcionando como deveria.
+
+  utter_tip_verify_spend_requirements_3:
+  - text: Lembre-se de verificar cada funcionalidade que desenvolveu, desta forma você minimiza as chances de ter problemas no futuro.
+
+  utter_explain_how_test:
+  - text: A App Inventor oferece três formas para testar sua aplicação. 
+  
+  utter_test_by_companion:
+  - text: A mais simples delas é através do aplicativo app inventor companion, o qual você pode instalar no seu celular e rodar a aplicação imediatamente.
+
+  utter_explain_where_get_companion:
+  - text: Esse aplicativo está disponível na loja de apps do seu smartphone.
+
+  utter_do_you_test_now:
+  - text: Isso é muito bom. Deseja testar agora?
+
+  utter_how_fix_warnings:
+  - text: Ao clicar sobre a caixinha de avisos, o sistema ira destacar onde estão os problemas no seu código. Basta ler e saberá o que deve fazer.
+
+
+  utter_we_need_verify_code:
+  - text: Precisamos verificar como está o código
+
+
+  utter_need_go_to_blocks_editor:
+  - text: Você precisar ir para a tela do editor de blocos
+
+# etapa de implantação
+  utter_explain_how_generate_apk:
+  - text: Para gera o apk da sua aplicação, você pode acessar o menu "compilar" no alto da tela e escolher entre as opções de gerar o qr code para fazer o download através do celular ou baixar o apk diretamente no seu computador.
+
+
+
+## fora do escopo
+  utter_out_of_scope:
+  - text: Desculpe, fui criado apenas para fins de programação!
+  - text: Desculpe, mas não tenho uma solução para isso ainda!
+  - text: Desculpe, mas sua intenção está fora do meu escopo!
+
+
+
+  utter_no_response:
+  - text: ""
+
+  utter_ok:
+  - text: Está bem
+
+# templates:
+#   name_entry:
+#     Antes de começar-mos, qual é o seu nome?
+  
+#   utter_submit:
+#     -text: Olá {name}, eu sou a Leili, sua assistente pessoal.
+
+actions:
+  - action_get_element
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
