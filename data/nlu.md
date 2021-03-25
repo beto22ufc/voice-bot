@@ -64,6 +64,7 @@
 - fazer um app
 - quero fazer um programa
 - quero criar um programa
+- um aplicativo
 
 ## intent:negative_response_to_project_name
 - Ainda não
@@ -206,20 +207,27 @@
 ## intent:how_change_text
   - como trocar o texto da legenda
   - como trocar o texto do botão
+  - como editar a legenda
+  - como editar o texto da legenda
+  - como editar o texto do botão
+  - como eu troco o texto do elemento
 
 ## intent:add_new_screen
-- Como eu crio outra tela?
-- Como eu crio uma nova tela?
-- Como eu adiciono uma nova tela?
+- como eu crio outra tela?
+- como eu crio uma nova tela?
+- como eu adiciono uma nova tela?
 - quero adicionar uma tela
+- como criar uma nova tela
 
 ## intent:change_screen
 - Como eu troco de tela?
 - Como eu mudo de tela?
 - Como eu vou para outra tela?
+- como trocar de tela
+- como mudar de tela
 
 ## intent:my_planning_is_one_screen_at_time
-- vou criar uma tela e código de por vez
+- vou criar uma tela e código por vez
 - uma tela por vez
 
 ## intent:my_planning_is_all_screens_first
@@ -236,11 +244,18 @@
 ## intent:doubts_about_properties
 - quero mudar a cor do botão
 - quero mudar o tamanho do botão
+- como mudar a cor do botão
+- como trocar a cor do botão
+- como mudar o tamanho do botão
+- como aumentar o tamanho do botão
+- como mudar a cor da legenda do elemento
+- como mudar a cor da legenda
 
 
 ## intent:how_test_my_application
 - quero testar meu aplicativo
 - como eu testo meu aplicativo
+- como eu consigo testar
 
 
 ## intent:fix_all_warnings
@@ -250,7 +265,7 @@
 
 
 ## intent:how_do_I_fix_warnings
-- como eu corriho esses avisos
+- como eu corrijo esses avisos
 - como eu removo esses avisos
 
 ## intent:this_not_working
