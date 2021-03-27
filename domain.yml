@@ -33,7 +33,7 @@ intents:
   - how_add_select
   - how_goto_code_screen
   - how_goto_designer_screen
-  - how_verify_code
+  - how_verify_code                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
   - my_planning_is_one_screen_at_time
   - my_planning_is_all_screens_first
   - where_storage_my_requirements
@@ -213,6 +213,9 @@ responses:
 
   utter_how_add_select:
   - text: Na paleta de componentes, a esquerda, escolha o elemento chamado caixaDeSeleção.
+
+  utter_delete_components:
+  - text: Para remover um componente, clique sobre ele na árvore de componentes e em seguida no botão "apagar" que fica na parte de baixo.
 
 #explicar propriedades
   utter_modify_properties:

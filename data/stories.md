@@ -88,10 +88,13 @@
 * how_start_coding
   - utter_change_to_code
 
-
 ## chage text of element
 * how_change_text
   - utter_how_change_text
+
+## delete component
+* how_delete_components
+  - utter_delete_components
 
 ## go to code screen
 * how_goto_code_screen

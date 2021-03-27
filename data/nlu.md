@@ -194,7 +194,8 @@
 
  <!-- #ideal seria trocar o nome do componente por uma variavel -->
 
-## intent: how_delete_components
+## intent:how_delete_components
+  - como deleto um componente
   - como eu deleto um componente
   - como eu apago um componente
   - Como apagar um componente
