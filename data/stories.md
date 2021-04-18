@@ -4,7 +4,7 @@
     - utter_greet
   * initial_dialog
     - utter_question_about_name
-  * negative_response_for_initial_name_project
+  * negative_response_to_project_name
     - utter_suggest_name_to_project
   * affirm
     - utter_confirm_type_project_name

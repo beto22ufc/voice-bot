@@ -42,6 +42,19 @@ intents:
   - how_do_I_fix_warnings
   - this_not_working
   - hey_leili
+  - how_add_blocks
+  - how_blocks_work
+  - what_is_control_blocks
+  - what_is_logic_blocks
+  - what_is_math_blocks
+  - what_is_text_blocks
+  - what_is_list_blocks
+  - what_is_dictionaries_blocks
+  - what_is_collor_blocks
+  - what_is_variable_blocks
+  - what_is_procedures_blocks
+  - doubts_about_trash_can
+
 
 slots:
   component:
@@ -90,7 +103,7 @@ responses:
 
 #apresentação app inventor
   utter_this_is_your_workspace:
-  - text: Aqui está a sua área de trabalho. É comum nesta plataforma iniciar a construção pelas telas, e só depois ir para a lógica por trás das delas.
+  - text: Aqui está a sua área de trabalho. É comum nesta plataforma iniciar a construção pelas telas, e só depois ir para a lógica por trás das telas.
 
   utter_where_to_start:
   - text: Avalie seus requisitos, é uma boa forma de decidir por onde começar.

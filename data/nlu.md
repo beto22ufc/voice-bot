@@ -147,6 +147,8 @@
  - quero adicionar um titulo 
  - como adicionar um titulo 
  - como adicionar um texto
+ - como adicionar uma legenda
+ - como eu adiciono uma legenda
 
  ## intent:how_add_date
  - como eu crio um calendario
@@ -214,71 +216,165 @@
   - como eu troco o texto do elemento
 
 ## intent:add_new_screen
-- como eu crio outra tela?
-- como eu crio uma nova tela?
-- como eu adiciono uma nova tela?
-- quero adicionar uma tela
-- como criar uma nova tela
+  - como eu crio outra tela?
+  - como eu crio uma nova tela?
+  - como eu adiciono uma nova tela?
+  - quero adicionar uma tela
+  - como criar uma nova tela
 
 ## intent:change_screen
-- Como eu troco de tela?
-- Como eu mudo de tela?
-- Como eu vou para outra tela?
-- como trocar de tela
-- como mudar de tela
+  - Como eu troco de tela?
+  - Como eu mudo de tela?
+  - Como eu vou para outra tela?
+  - como trocar de tela
+  - como mudar de tela
 
 ## intent:my_planning_is_one_screen_at_time
-- vou criar uma tela e código por vez
-- uma tela por vez
+  - vou criar uma tela e código por vez
+  - uma tela por vez
 
 ## intent:my_planning_is_all_screens_first
-- vou criar todas as telas e depois vou para o código
-- todas as telas logo
-- todas as telas primeiro
-- quero criar todas as telas antes
-
-
-## intent:doubts_about_component_functionality
-- para que serve a bolsa?
-- para que serve a lixeira?
+  - vou criar todas as telas e depois vou para o código
+  - todas as telas logo
+  - todas as telas primeiro
+  - quero criar todas as telas antes
 
 ## intent:doubts_about_properties
-- quero mudar a cor do botão
-- quero mudar o tamanho do botão
-- como mudar a cor do botão
-- como trocar a cor do botão
-- como mudar o tamanho do botão
-- como aumentar o tamanho do botão
-- como mudar a cor da legenda do elemento
-- como mudar a cor da legenda
+  - quero mudar a cor do botão
+  - quero mudar o tamanho do botão
+  - como mudar a cor do botão
+  - como trocar a cor do botão
+  - como mudar o tamanho do botão
+  - como aumentar o tamanho do botão
+  - como mudar a cor da legenda do elemento
+  - como mudar a cor da legenda
 
 
 ## intent:how_test_my_application
-- quero testar meu aplicativo
-- como eu testo meu aplicativo
-- como eu consigo testar
+  - quero testar meu aplicativo
+  - como eu testo meu aplicativo
+  - como eu consigo testar
 
 
 ## intent:fix_all_warnings
-- já corrigi todos os avisos
-- não tem nenhum aviso
-- não tem mais nenhum aviso
+  - já corrigi todos os avisos
+  - não tem nenhum aviso
+  - não tem mais nenhum aviso
 
 
 ## intent:how_do_I_fix_warnings
-- como eu corrijo esses avisos
-- como eu removo esses avisos
+  - como eu corrijo esses avisos
+  - como eu removo esses avisos
 
 ## intent:this_not_working
-- não está funcionando
-- deveria estar funcionando
-- como eu faço funcionar
+  - não está funcionando
+  - deveria estar funcionando
+  - como eu faço funcionar
 
 ## intent:how_verify_code
-- como eu verifico o código
-- como eu faço isso
-- como verificar o código
-- como verificar se o código está correto
+  - como eu verifico o código
+  - como eu faço isso
+  - como verificar o código
+  - como verificar se o código está correto
+
+
+
+<!-- Blocks editor -->
+
+## intent:how_add_blocks
+  - como eu adiciono os blocos 
+  - como eu adiciono um bloco
+  - como adicionar os blocos
+a: clique sobre um bloco ou arraste-o para o centro da tela.
+
+
+## intent:how_blocks_work
+  - como funcionam os blocos
+  - como funcionam esses blocos
+  - me fale sobre os blocos	
+a: Os blocos contém lógicas de código que permitem a criação de trechos mais complexos através do encaixe correto deles. Para facilitar essa integração, o blocos possuem formatos que facilitam a percepção de encaixe.
+
+## intent:what_is_control_blocks
+  - o que são os blocos de controle
+  - para que servem os blocos de controle
+a: Esse conjunto é formado por blocos de condicionais, blocos de repetições, blocos para manipulação de variáveis e de telas.  
+
+## intent:what_is_logic_blocks
+  - o que são os blocos de lógica
+  - para que servem os blocos de lógica
+a: Esse conjunto é formado por blocos com verdadeiro ou falso, comparações de igualdade e de lógicas booleanas.
+
+## intent:what_is_math_blocks
+  - o que são os blocos de matemática
+  - para que servem os blocos de matemática
+a: Esse conjunto é formado por blocos contendo operações matemáticas.
+
+## intent:what_is_text_blocks
+  - o que são os blocos de texto
+  - para que servem os blocos de texto
+a: Esse conjunto é formado por blocos contendo operações para trabalhar com textos.
+
+## intent:what_is_list_blocks
+  - o que são os blocos de listas
+  - para que servem os blocos de listas
+a: Esse conjunto é formado por blocos que permitem a manipulação de coleções de objetos semelhantes.
+
+
+## intent:what_is_dictionaries_blocks
+  - o que são os blocos de dictionaries
+  - para que servem os blocos de dictionaries
+a: Esse conjunto é formado por blocos que permitem a manipulação de coleções determinadas por uma chave e um valor. Sendo possível recuperar os valores através da chave associada. 
+
+
+## intent:what_is_collor_blocks
+  - o que são os blocos de cores
+  - para que servem os blocos de cores
+a: Esse conjunto é formado por blocos contendo cores que podem ser utilizadas pelo sistema.
+
+
+## intent:what_is_variable_blocks
+  - o que são os blocos de variáveis
+  - para que servem os blocos de variáveis
+a: Esse conjunto é formado por blocos que permitem manipular a criação e atribuição de valores para variáveis.
+
+## intent:what_is_procedures_blocks
+  - o que são os blocos de procedimentos
+  - para que servem os blocos de procedimentos
+a: Esse conjunto é formado por blocos que permitem descrever alguma ação que deve ser aplicada numa situação específica.
+
+
+
+
+
+
+
+
+## intent:doubts_about_trash_can
+- para que serve a bolsa?
+- para que serve a lixeira?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## intent:hey_leili
