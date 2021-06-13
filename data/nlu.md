@@ -119,6 +119,7 @@
 - onde eu coloco meus requisitos?
 - onde devo armazenar meus requisitos?
 - onde devo colocar meus requisitos?
+- onde posso armazenar meus requisitos
 
 ## intent:i_want
 - quero
@@ -178,9 +179,26 @@
  - quero que o usuário possa selecionar uma refeição
  - quero adicionar algo para o usuário selecionar a refeição
 
+
+## intent:how_add_text_box
+ - como eu adiciono uma caixa de texto
+ - quero adicionar uma caixa de texto
+ - quero adicionar uma caixa de mensagem
+ - como adicionar uma caixa de texto
+ - como eu adiciono uma caixa de mensagem
+ - como adicionar uma caixa de mensagem
+ - como adicionar um campo para o usuário poder digitar
+
+## intent:how_rename
+  - como renomear um elemento
+  - como renomear um botão
+  - como renomear um objeto
+  - como renomear um componente
+
 ## intent:how_start_coding
   - como eu faço o código
   - como eu construo o código
+  - como adiciono o código
   - quero implementar as funcionalidades
 
 
@@ -214,6 +232,7 @@
   - como editar o texto da legenda
   - como editar o texto do botão
   - como eu troco o texto do elemento
+  - como alterar o texto
 
 ## intent:add_new_screen
   - como eu crio outra tela?
@@ -229,6 +248,14 @@
   - como trocar de tela
   - como mudar de tela
 
+## intent:how_align_component
+  - como centralizar um botão
+  - como centralizar um texto
+  - como centralizar um componente
+  - como centralizar
+
+## intent:already_add_organization
+  - já adicionei uma organização e agora
 ## intent:my_planning_is_one_screen_at_time
   - vou criar uma tela e código por vez
   - uma tela por vez
@@ -254,6 +281,8 @@
   - quero testar meu aplicativo
   - como eu testo meu aplicativo
   - como eu consigo testar
+  - como testar o que eu já fiz
+  - como testar
 
 
 ## intent:fix_all_warnings
@@ -265,6 +294,9 @@
 ## intent:how_do_I_fix_warnings
   - como eu corrijo esses avisos
   - como eu removo esses avisos
+  - como eu vejo os erros que tem
+  - como eu acho os erros que tem
+  - como eu procuro os erros
 
 ## intent:this_not_working
   - não está funcionando
@@ -285,68 +317,47 @@
   - como eu adiciono os blocos 
   - como eu adiciono um bloco
   - como adicionar os blocos
-a: clique sobre um bloco ou arraste-o para o centro da tela.
-
 
 ## intent:how_blocks_work
   - como funcionam os blocos
   - como funcionam esses blocos
   - me fale sobre os blocos	
-a: Os blocos contém lógicas de código que permitem a criação de trechos mais complexos através do encaixe correto deles. Para facilitar essa integração, o blocos possuem formatos que facilitam a percepção de encaixe.
 
 ## intent:what_is_control_blocks
   - o que são os blocos de controle
-  - para que servem os blocos de controle
-a: Esse conjunto é formado por blocos de condicionais, blocos de repetições, blocos para manipulação de variáveis e de telas.  
+  - para que servem os blocos de controle 
 
 ## intent:what_is_logic_blocks
   - o que são os blocos de lógica
   - para que servem os blocos de lógica
-a: Esse conjunto é formado por blocos com verdadeiro ou falso, comparações de igualdade e de lógicas booleanas.
 
 ## intent:what_is_math_blocks
   - o que são os blocos de matemática
   - para que servem os blocos de matemática
-a: Esse conjunto é formado por blocos contendo operações matemáticas.
 
 ## intent:what_is_text_blocks
   - o que são os blocos de texto
   - para que servem os blocos de texto
-a: Esse conjunto é formado por blocos contendo operações para trabalhar com textos.
 
 ## intent:what_is_list_blocks
   - o que são os blocos de listas
   - para que servem os blocos de listas
-a: Esse conjunto é formado por blocos que permitem a manipulação de coleções de objetos semelhantes.
-
 
 ## intent:what_is_dictionaries_blocks
   - o que são os blocos de dictionaries
   - para que servem os blocos de dictionaries
-a: Esse conjunto é formado por blocos que permitem a manipulação de coleções determinadas por uma chave e um valor. Sendo possível recuperar os valores através da chave associada. 
-
 
 ## intent:what_is_collor_blocks
   - o que são os blocos de cores
   - para que servem os blocos de cores
-a: Esse conjunto é formado por blocos contendo cores que podem ser utilizadas pelo sistema.
-
 
 ## intent:what_is_variable_blocks
   - o que são os blocos de variáveis
   - para que servem os blocos de variáveis
-a: Esse conjunto é formado por blocos que permitem manipular a criação e atribuição de valores para variáveis.
 
 ## intent:what_is_procedures_blocks
   - o que são os blocos de procedimentos
   - para que servem os blocos de procedimentos
-a: Esse conjunto é formado por blocos que permitem descrever alguma ação que deve ser aplicada numa situação específica.
-
-
-
-
-
-
 
 
 ## intent:doubts_about_trash_can
@@ -354,27 +365,9 @@ a: Esse conjunto é formado por blocos que permitem descrever alguma ação que 
 - para que serve a lixeira?
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## intent:how_add_comment
+- como eu adiciono um comentário
+- como adicionar um comentário
 
 
 ## intent:hey_leili

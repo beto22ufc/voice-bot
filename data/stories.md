@@ -63,6 +63,14 @@
   * how_add_select
     - utter_how_add_select
 
+## adding_text_box
+  * how_add_text_box
+    - utter_how_add_text_box
+
+## rename_component
+  * how_rename
+    - utter_rename_components
+
 ## say goodbye
 * goodbye
   - utter_goodbye
@@ -153,12 +161,69 @@
   - utter_need_go_to_blocks_editor
 
 
+## align compenents
+* how_align_component
+  - utter_how_align_component
+* already_add_organization
+  - utter_already_add_organization
 
 
 
 
+<!-- Editor de blocos -->
+<!-- Etapa de programação -->
+
+## how add blocks
+* how_add_blocks
+  - utter_how_add_blocks
+
+## how blocks work
+* how_blocks_work
+  - utter_how_blocks_work
+
+## what is control blocks
+* what_is_control_blocks
+  - utter_what_is_control_blocks
+
+## what is logic blocks
+* what_is_logic_blocks
+  - utter_what_is_logic_blocks
+
+## what is math blocks
+* what_is_math_blocks
+  - utter_what_is_math_blocks
+
+## what is text blocks
+* what_is_text_blocks
+
+  - utter_what_is_text_blocks
+## what is list blocks
+* what_is_list_blocks
+  - utter_what_is_list_blocks
+
+## what is dictionaries blocks
+* what_is_dictionaries_blocks
+  - utter_what_is_dictionaries_blocks
+
+## what is collor blocks
+* what_is_collor_blocks
+  - utter_what_is_collor_blocks
+
+## what is variable blocks
+* what_is_variable_blocks
+  - utter_what_is_variable_blocks
+
+## what is procedures blocks
+* what_is_procedures_blocks
+  - utter_what_is_procedures_blocks
+
+## about trash can
+* doubts_about_trash_can
+  - utter_doubts_about_trash_can
 
 
+
+  
 ## help
 * hey_leili
   - utter_help

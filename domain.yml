@@ -31,6 +31,7 @@ intents:
   - how_add_date
   - how_add_image
   - how_add_select
+  - how_add_text_box
   - how_goto_code_screen
   - how_goto_designer_screen
   - how_verify_code                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
@@ -54,6 +55,9 @@ intents:
   - what_is_variable_blocks
   - what_is_procedures_blocks
   - doubts_about_trash_can
+  - how_add_comment
+  - how_find_errors
+  - how_rename
 
 
 slots:
@@ -164,14 +168,8 @@ responses:
   utter_explanations_about_requeriments: 
   - text: "Requisitos são caracteristicas..."
 
-  
-  utter_and_now:
-  - text: e agora?
 
-  utter_how_i_do:
-  - text: como eu faço?
-
-  # explicar a interface**
+# explicar a interface**
 
   utter_more_doubts:
   - text: você tem mais alguma dúvida?
@@ -185,8 +183,8 @@ responses:
   utter_start_from_screen:
   - text: É comum nesta plataforma iniciar a construção pelas telas, e só depois ir para a lógica por trás das telas.
 
-#construção das telas
 
+#construção das telas
 
   utter_add_new_screen:
   - text: Para adicionar uma nova tela clique no botão "Adicionar Tela" que aparece no canto superior da tela
@@ -225,10 +223,22 @@ responses:
   - text: Na paleta de componentes, a esquerda, escolha o elemento chamado imagem.
 
   utter_how_add_select:
-  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado caixaDeSeleção.
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado Caixa de Seleção.
+
+  utter_how_add_text_box:
+  - text: Na paleta de componentes, a esquerda, escolha o elemento chamado Caixa de Texto.
 
   utter_delete_components:
   - text: Para remover um componente, clique sobre ele na árvore de componentes e em seguida no botão "apagar" que fica na parte de baixo.
+
+  utter_rename_components:
+  - text: Para renomear um componente, clique sobre ele na árvore de componentes e em seguida no botão "renomear" que fica na parte de baixo.
+
+  utter_how_align_component:
+  - text: A melhor forma de centralizar os componentes é adicionando uma organização, localizada na paleta do lado esquerdo da tela.
+
+  utter_already_add_organization:
+  - text: Arraste os elementos que deseja centralizar para dentro da organização, em seguida, na paleta de propriedades do lado direito, mude o alinhamento. 
 
 #explicar propriedades
   utter_modify_properties:
@@ -249,6 +259,52 @@ responses:
   - text: Clique no botão "Designer" na parte superior direita da sua tela.
 
 
+
+
+
+## Etapa de programação
+
+  utter_how_add_blocks:
+  - text: Na tela do Editor de blocos, clique sobre um bloco ou arraste-o para o centro da tela.
+
+  utter_how_blocks_work:
+  - text: Os blocos contém lógicas de código que permitem a criação de trechos mais complexos através do encaixe correto deles. Para facilitar essa integração, o blocos possuem formatos que facilitam a percepção de encaixe.
+
+  utter_what_is_control_blocks:
+  - text: Esse conjunto é formado por blocos de condicionais, blocos de repetições, blocos para manipulação de variáveis e de telas.
+
+  utter_what_is_logic_blocks:
+  - text: Esse conjunto é formado por blocos com verdadeiro ou falso, comparações de igualdade e de lógicas booleanas.
+
+  utter_what_is_math_blocks:
+  - text: Esse conjunto é formado por blocos contendo operações matemáticas.
+
+  utter_what_is_text_blocks:
+  - text: Esse conjunto é formado por blocos contendo operações para trabalhar com textos.
+
+  utter_what_is_list_blocks:
+  - text: Esse conjunto é formado por blocos que permitem a manipulação de coleções de objetos semelhantes.
+
+  utter_what_is_dictionaries_blocks:
+  - text: Esse conjunto é formado por blocos que permitem a manipulação de coleções determinadas por uma chave e um valor. Sendo possível recuperar os valores através da chave associada.
+
+  utter_what_is_collor_blocks:
+  - text: Esse conjunto é formado por blocos contendo cores que podem ser utilizadas pelo sistema.
+
+  utter_what_is_variable_blocks:
+  - text: Esse conjunto é formado por blocos que permitem manipular a criação e atribuição de valores para variáveis.
+
+  utter_what_is_procedures_blocks:
+  - text: Esse conjunto é formado por blocos que permitem descrever alguma ação que deve ser aplicada numa situação específica.
+
+
+  utter_doubts_about_trash_can:
+  - text: A lixeira serve para apagar os blocos adicionados a tela. Para isso, basta arrastar o bloco que deseja apagar para dentro da lixeira e soltar.
+
+
+  utter_how_add_comment:
+  - text: O ideal sempre é que seu código seja tão fácil de entender que não necessite de comentários, porém, algumas vezes isso não é possível. Adicionar comentários ajuda a entender o que aquele trecho de código faz.
+  - text: Para adicionar um comentario clique com o botão direito do mouse sobre o bloco desejado e escolha a opção de adicionar comentário.
 
 
 
@@ -292,18 +348,16 @@ responses:
   utter_how_fix_warnings:
   - text: Ao clicar sobre a caixinha de avisos, o sistema ira destacar onde estão os problemas no seu código. Basta ler e saberá o que deve fazer.
 
-
   utter_we_need_verify_code:
   - text: Precisamos verificar como está o código
-
 
   utter_need_go_to_blocks_editor:
   - text: Você precisar ir para a tela do editor de blocos
 
+
 # etapa de implantação
   utter_explain_how_generate_apk:
   - text: Para gera o apk da sua aplicação, você pode acessar o menu "compilar" no alto da tela e escolher entre as opções de gerar o qr code para fazer o download através do celular ou baixar o apk diretamente no seu computador.
-
 
 
 ## fora do escopo
