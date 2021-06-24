@@ -221,9 +221,10 @@
 * doubts_about_trash_can
   - utter_doubts_about_trash_can
 
+## which_organization
+* which_organization_add
+  - utter_which_organization_add
 
-
-  
 ## help
 * hey_leili
   - utter_help
@@ -232,11 +233,9 @@
 * test
   - utter_test
 
-
 ## out_of_scope
 * out_of_scope
   - utter_out_of_scope
-
 
 ## no_response
 * no_response
