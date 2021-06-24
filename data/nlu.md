@@ -253,9 +253,17 @@
   - como centralizar um texto
   - como centralizar um componente
   - como centralizar
+  - como alinhar um texto
+  - como alinhar um botão
+  - como alinhar um componente
 
 ## intent:already_add_organization
   - já adicionei uma organização e agora
+  - adicionei a organização
+
+## intent:which_organization_add
+  - qual organização devo adicionar
+
 ## intent:my_planning_is_one_screen_at_time
   - vou criar uma tela e código por vez
   - uma tela por vez
